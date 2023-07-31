@@ -8,7 +8,7 @@ study = StudyDefinition(
         "incidence": 0.5,
     },
     population=patients.registered_with_one_practice_between(
-        "2019-02-01", "2020-02-01"
+        "2019-02-01", "2021-02-01"
     ),
 
     age=patients.age_as_of(
